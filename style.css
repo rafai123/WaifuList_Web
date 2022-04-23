@@ -1,0 +1,294 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-image: url(Picture/Background/moroccan-flower.png);
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body {
+    background-color: #eaeaea;
+    color:#333;
+    font: 16px/26px arial;
+
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    background-color: #fff;
+
+    box-shadow: 10px 10px 44px -25px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 44px -25px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 44px -25px rgba(0,0,0,0.75);
+}
+
+.header {
+    padding: 3.9%;
+    padding-top: 15px;
+    padding-bottom: 5px;
+
+}
+
+.header .tittle {
+    font-size:38px;
+    font-weight: bold;
+}
+
+.navbar {
+    padding-right: 3.9%;
+    padding-left:4%;
+    padding-bottom:1.2%;
+    padding-top:1px;
+}
+.navbar li {
+    display:inline;
+    font-style: none;
+    padding-left: 5px;
+    background-color: #eaeaea;
+    padding: 4px;
+    font-size: 13px;
+
+    box-shadow: 10px 3px 14px 0px rgba(0,0,0,0.09);
+    -webkit-box-shadow: 10px 3px 14px 0px rgba(0,0,0,0.09);
+    -moz-box-shadow: 10px 3px 14px 0px rgba(0,0,0,0.09);
+
+}
+
+.navbar li a {
+    text-decoration: none ;
+    color: tomato;
+    text-shadow: 2px 2px 5px white;
+}
+
+.navbar li a:hover {
+    background-color: tomato;
+    color: #fff;
+    font-size: 15px;;
+    padding: 4px;
+    padding-right: 5px;
+
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+}
+
+.home_image {
+    height: 40%;
+    background-image: url(/Picture/Kitagawa_Marin/Marin1_fix.jpg);
+    background-size: cover;
+    /*background-position: 0 -85px;
+    */border-top: 5px solid tomato;
+    border-bottom: 5px solid royalblue;
+    transition:  200ms;
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
+}
+
+.home_image:hover {
+    overflow: auto;
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+    border-bottom: 5px solid tomato;
+    border-top: 5px solid royalblue;
+    height: 80%;
+    
+
+   
+}
+
+.content {
+    padding: 3.9%;
+    font-size: 14px;
+}
+
+.content h2 {
+    font-weight: bold;
+    font-size:28px;
+    text-align: justify;
+    /*padding-bottom: 30px;
+    */
+}
+
+.content h3 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.paragraf {
+    display: inline-block;
+    width: 30px;
+}
+
+.content .writer {
+    font-size: 10px;
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
+
+.content .writer a {
+    text-decoration: none;
+    color: tomato;
+    
+}
+
+.content .writer a:hover {
+    background-color: tomato;
+    color: #fff;
+    font-size: 13px;;
+    padding: 3px;
+    padding-right: 5px;
+
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+}
+
+.spacing {
+    padding: 20px;
+    height: 25px;
+}
+
+.picture_content {
+    height: 60%;
+    width: 80%;
+    background-size: cover;
+    background-image: url(Picture/Kitagawa_Marin/Marin_shizuku.png);
+
+    box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.75);
+
+    transition: 200ms;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.picture_content:hover {
+    overflow: auto;
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    
+
+    box-shadow: 10px 10px 29px 0px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 10px 20px 19px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 10px 10px 29px 0px rgba(0,0,0,0.3);
+
+}
+
+.picture_content2 {
+    height: 60%;
+    width: 80%;
+    background-size: cover;
+    background-image: url(Picture/Kitagawa_Marin/BlackLobelia.jpg);
+    box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.75);
+    transition: 200ms;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.picture_content2:hover {
+    overflow: auto;
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+.red {
+    color: tomato;
+    display: inline;
+}
+.footer {
+    padding:3px ;
+    background-color: #333;
+    color:#eaeaea;
+    text-align: center;
+    font-size: 13px;
+}
